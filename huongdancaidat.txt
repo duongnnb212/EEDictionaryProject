@@ -1,0 +1,20 @@
+			Bước Hướng Dẫn Cài Đặt
+
+Bước 1: Giải nén
+Bước 2: 
++ Cài sẵn trước MongoDB với bảng Collection là "dictionary".
++ Mở file .env trong thư mục backend để chỉnh sửa lại tên kết nối csdl mongoDB.
+Bước 3:
+- Cài đặt các thư viện: Dùng lệnh npm i ở cả 2 thư mục backend và fronend
+
+- Tiến hành run code. 
++ Tab 1: cd vào thư mục backend và thực hiện lệnh : npm run dev
++ Tab 2: cd vào thư mục frontend và thực hiện lệnh: npm start
+
+- Có đầy đủ chức năng CRUD của 1 website:
+	+ Create : Tạo thẻ từ vựng mới gồm tên từ vựng và nghĩa
+	+ Read: Liệt kê thẻ từ vựng đã tạo
+	+ Update: Cập nhật trực tiếp từ vựng
+	+ Delete: Xóa thẻ từ vựng
+
+
